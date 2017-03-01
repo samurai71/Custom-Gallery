@@ -51,6 +51,7 @@
     <script src="js/start.js"></script>
     <script src="js/facebookpage.js"></script>
     <script src="js/animations.js"></script>
+    <script src="js/lightbox.js"></script>
     <script type="text/javascript">
 // $(document).ready(function(){
 // 	$('#menu').slicknav();

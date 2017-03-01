@@ -1,0 +1,36 @@
+.hidden {
+	display: none;
+}
+
+
+p {
+	font-family: "times" , serif;
+}
+
+body {
+	/* background: url('../images/Lake_Huron_manitoulin.jpeg') no-repeat fixed;
+	background-size: cover; */
+	background-color: #5c6b8f;
+	
+}
+
+h1, h2, h3 {
+	color: #981B1E !important;
+	font-family: Georgia, serif;
+}
+
+
+img {
+	margin-bottom: 1em;
+}
+
+.panel {
+	margin-top: 2em;
+	background-color: rgba(255, 255, 255, .90);
+	border-radius: 1em;
+
+}
+
+.button {
+	margin-right: 1em;
+}
