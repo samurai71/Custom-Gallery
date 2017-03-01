@@ -1,0 +1,144 @@
+.hidden {
+	display: none;
+}
+
+/* p {
+	font-family: "times" , serif;
+} */
+
+body {
+	/* background: url('../images/Lake_Huron_manitoulin.jpeg') no-repeat fixed;
+	background-size: cover; */
+	background-color: #5c6b8f;
+
+}
+
+h1, h2, h3 {
+	color: #981B1E !important;
+	font-family: Georgia, serif;
+}
+
+a {
+	font-family: Georgia, serif;
+}
+
+a:hover {
+	color: #981b1e;
+}
+
+.phone {
+	/* color: #981B1E; */
+	font-weight: bold;
+}
+
+ .mainNav ul {
+	/* background-color: #981b1e; */
+}
+
+ .mainNav ul li { 
+	display: inline-block;
+	/* margin-right: 5em; */
+	text-align: center;
+	margin-top: 1em;
+}
+
+.mainNav ul li a:hover {
+	font-style: italic;
+}
+
+#mobileNav {
+	padding-bottom: 1em;
+	margin-top: .5em;
+} 
+
+
+img {
+	margin-bottom: 1em;
+}
+
+.panel {
+	margin-top: 2em;
+	background-color: rgba(255, 255, 255, .90);
+	border-radius: 1em;
+	/* border: 2px solid #000000; */
+
+}
+
+#footerBar {
+	/* background-color: rgba(255, 255, 255, .80); */
+	border-top: 1px solid #000000;
+	padding-top: 1em;
+}
+
+#contactForm {
+	border-top: 1px solid #000000;
+	padding-top: 1em;
+}
+
+ .bold {
+	font-weight: bold; 
+	/* font-size: 1.125em; */
+ } 
+
+#volunteers {
+	width: 100%;
+}
+
+#adminLogin {
+	margin-top: 1em;
+}
+
+#donors_list {
+	width: 100%;
+}
+
+tr.border_bottom td {
+  border-bottom:1px solid black;
+}
+
+tr.border_bottom th {
+  border-bottom:1px solid black;
+}
+ 
+@media only screen and (max-width: 40em) {
+	.js #menu {
+		display:none;
+	}
+
+
+	.js .slicknav_menu {
+		display:block;
+	}
+ } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+ @media only screen and (min-width: 64.063em) and (max-width: 90em) { 
+ 	.js #menu {
+		display:none;
+	}
+
+
+	.js .slicknav_menu {
+		display:none;
+	}
+	
+	h4 {
+		margin-top: .5em;
+	}
+
+	.navBar ul li {
+	background-color: #cf2a6a;
+	height: 3em;
+}
+ } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+.js #menu {
+		display:none;
+	}
+
+
+	.js .slicknav_menu {
+		display:block;
+	}
+} /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
