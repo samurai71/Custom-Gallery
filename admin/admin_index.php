@@ -64,7 +64,12 @@
   <!-- <li><a href="#">Yet another</a></li> -->
 </ul> 
   </li>
-  <li><a href="#">Gallery</a></li>
+  <li><a data-dropdown="drop4" aria-controls="drop1" aria-expanded="false">Gallery</a>
+	<ul id="drop4" class="f-dropdown" data-dropdown-content aria-hidden="true" tabindex="-1">
+  <li><a href="#">Edit Gallery</a></li>
+  <li><a href="includes/add_gallery.php">Add to Gallery</a></li>
+</ul>
+  </li>
   <li><a data-dropdown="drop3" aria-controls="drop1" aria-expanded="false">Users</a>
   <ul id="drop3" class="f-dropdown" data-dropdown-content aria-hidden="true" tabindex="-1">
   <li><a href="#">All Users</a></li>

@@ -6,5 +6,19 @@
 			exit;
 		}
 	}
+
+	function confirmQuery($result) {
+	    
+	    global $link;
+
+	    if(!$result ) {
+	          
+	          die("QUERY FAILED ." . mysqli_error($link));
+	   
+	          
+	      }
+	    
+
+	}
 	
 ?>
